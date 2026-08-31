@@ -29,17 +29,17 @@ PROJECTILE_DAMAGE = 5
 
 # Game Phases
 PHASE_COLORS = {
-    1: {"ground": (139, 69, 19), "background": (34, 139, 34)},
-    2: {"ground": (34, 139, 34), "background": (34, 139, 34)},
-    3: {"ground": (128, 128, 128), "background": (34, 139, 34)},
-    4: {"ground": (64, 64, 64), "background": (30, 30, 30)},
-    5: {"ground": (139, 69, 19), "background": (50, 20, 20)},
+    1: {"ground": (139, 69, 19), "background": (34, 139, 34)},  # Brown ground, green background
+    2: {"ground": (34, 139, 34), "background": (34, 139, 34)},  # Green ground
+    3: {"ground": (128, 128, 128), "background": (34, 139, 34)},  # Gray stone
+    4: {"ground": (64, 64, 64), "background": (30, 30, 30)},  # Dark stone
+    5: {"ground": (139, 69, 19), "background": (50, 20, 20)},  # Theater (brown ground, dark red background)
 }
 
-# Difficulty Scaling
+# Difficulty Scaling (Loop Counter)
 DIFFICULTY_MULTIPLIER = {
-    0: 1.0,
-    1: 2.0,
+    0: 1.0,  # First run
+    1: 2.0,  # Second run (2x health, 1.4x damage)
 }
 
 DAMAGE_MULTIPLIER = {
